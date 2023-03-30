@@ -36,7 +36,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #929292;
+    font-size: 15px;
 }
 
 .logo{
@@ -46,7 +52,6 @@ nav ul li a{
 
 .menu{
     width: 30px;
-    cursor: pointer;
     margin-left: 40px;
 }
 
@@ -56,18 +61,22 @@ nav ul li a{
     align-items: center;
 }
 
+.cidade p{
+    font-size: 17px;
+}
+
 .coluna{
-    width: 45%;
+    width: 55%;
 }
 
 h1{
     color: #fff;
-    font-size: 100px;
+    font-size: 90px;
 }
 
 p{
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 button{
@@ -81,9 +90,14 @@ button{
     margin-top: 30px;
 }
 
+button:hover{
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+
 .carta{
-    width: 200px;
-    height: 230px;
+    width: 230px;
+    height: 260px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
@@ -92,29 +106,77 @@ button{
     background-position: center;
     background-size: cover;
     transition: 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    max-width: 45%;
+}
+
+.carta p{
+    margin-top: 8px;
 }
 
 .carta:hover{
     transform: translateY(-15px);
+    
 }
 
 .carta1{
-    background-image: url(img/img1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(img/img1.jpg);
+    text-align: center;
 }
 
 .carta2{
-    background-image: url(img/img2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(img/img2.jpg);
+    text-align: center;
 }
 
 .carta3{
-    background-image: url(img/img3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(img/img3.jpg);
+    text-align: center;
 }
 
 .carta4{
-    background-image: url(img/img4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(img/img4.jpg);
+    text-align: center;
 }
 
 h5{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 17px;
+}
+
+/*contato*/
+.contato{
+    margin-top: 5%;
+    color:#ffffff;
+    width: 80%;
+    margin-left: 8%;
+    padding: 50px 40px;
+    border-radius: 0px 20px;
+    background-color: #00000023;
+    box-shadow: 0px 20px 40px #00000071;
+    font-size: 20px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/*Sobre*/
+.sobre{
+    margin-top: 5%;
+    width: 80%;
+}
+
+.sobre p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.viagens{
+    margin-top: 5%;
+    width: 80%;
+}
+
+
+.viagens p{
+    font-size: 20px;
+    margin-top: 20px;
 }
